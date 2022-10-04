@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2022-10-04T06:21:12.001605",
+    "startedAt": "2022-10-04T06:21:08.794940",
+    "docker": null,
+    "gpu": "Quadro P1000",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\AsadMehmood\\OneDrive - kyndryl\\Python Scripts\\mlops_work\\MLOps-Training\\04 DVC\\train.py",
+    "codePath": "04 DVC\\train.py",
+    "git": {
+        "remote": "https://github.com/asadblinks/MLOps-Training.git",
+        "commit": "40a15ce47d1ea146aeeecfcf0e416d84694f2b5d"
+    },
+    "email": "asadmahmood16@hotmail.com",
+    "root": "C:/Users/AsadMehmood/OneDrive - kyndryl/Python Scripts/mlops_work/MLOps-Training",
+    "host": "LAPTOP-LCT7KD66",
+    "username": "AsadMehmood",
+    "executable": "C:\\Python310\\python310.exe"
+}
