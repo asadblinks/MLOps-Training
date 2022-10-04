@@ -1,2 +1,2 @@
-# MLOps-Training
-MLOps Training Code and Material - Descrition
+# Machine Learning Operations Training
+Machine learning operations and its Training Code, Material and Description
