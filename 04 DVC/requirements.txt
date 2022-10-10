@@ -1,3 +1,7 @@
+awscli
+dvc
+dvc[s3]
+onnxruntime
 pytorch-lightning==1.2.10
 datasets
 transformers==4.5.1
@@ -9,4 +13,3 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
-dvc

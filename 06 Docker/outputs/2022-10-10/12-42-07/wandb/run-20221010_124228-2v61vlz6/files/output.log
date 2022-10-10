@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+
+Epoch 0:  89%|▉| 134/151 [01:10<00:08,  1.89it/s, loss=0.589, v_num=vlz6, valid/loss_epoch=0.673, valid/acc=0.641, valid/precision_macro=0.323, valid/recall_macro=0.494
+
+
+
+

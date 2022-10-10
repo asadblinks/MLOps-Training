@@ -1,0 +1,4 @@
+[2022-10-10 14:00:27,403][__main__][INFO] - Loading pre-trained model from: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\06 Docker/models/best-checkpoint.ckpt
+[2022-10-10 14:00:40,749][datasets.builder][WARNING] - Found cached dataset glue (C:/Users/AsadMehmood/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+[2022-10-10 14:00:41,913][__main__][INFO] - Converting the model into ONNX format
+[2022-10-10 14:00:42,704][__main__][INFO] - Model converted successfully. ONNX format model is at: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\06 Docker/models/model.onnx
