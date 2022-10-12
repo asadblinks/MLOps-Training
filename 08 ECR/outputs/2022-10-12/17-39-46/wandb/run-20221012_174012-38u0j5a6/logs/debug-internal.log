@@ -1,0 +1,406 @@
+2022-10-12 17:40:12,855 INFO    StreamThr :24104 [internal.py:wandb_internal():88] W&B internal server running at pid: 24104, started at: 2022-10-12 17:40:12.853330
+2022-10-12 17:40:12,860 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: status
+2022-10-12 17:40:12,867 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: status
+2022-10-12 17:40:12,869 DEBUG   SenderThread:24104 [sender.py:send():303] send: header
+2022-10-12 17:40:12,870 INFO    WriterThread:24104 [datastore.py:open_for_write():75] open: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\run-38u0j5a6.wandb
+2022-10-12 17:40:13,220 DEBUG   SenderThread:24104 [sender.py:send():303] send: run
+2022-10-12 17:40:13,225 INFO    SenderThread:24104 [sender.py:_maybe_setup_resume():593] checking resume status for asadblinks/MLOPs AWS/38u0j5a6
+2022-10-12 17:40:14,580 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: check_version
+2022-10-12 17:40:14,584 INFO    SenderThread:24104 [dir_watcher.py:__init__():216] watching files in: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files
+2022-10-12 17:40:14,585 INFO    SenderThread:24104 [sender.py:_start_run_threads():928] run started: 38u0j5a6 with start time 1665578412.8461
+2022-10-12 17:40:14,585 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:40:14,587 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:40:14,589 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: check_version
+2022-10-12 17:40:15,099 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: run_start
+2022-10-12 17:40:15,593 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:40:16,020 DEBUG   HandlerThread:24104 [meta.py:__init__():34] meta init
+2022-10-12 17:40:16,021 DEBUG   HandlerThread:24104 [meta.py:__init__():49] meta init done
+2022-10-12 17:40:16,021 DEBUG   HandlerThread:24104 [meta.py:probe():215] probe
+2022-10-12 17:40:16,041 DEBUG   HandlerThread:24104 [meta.py:_setup_git():205] setup git
+2022-10-12 17:40:16,230 DEBUG   HandlerThread:24104 [meta.py:_setup_git():212] setup git done
+2022-10-12 17:40:16,230 DEBUG   HandlerThread:24104 [meta.py:_save_pip():53] save pip
+2022-10-12 17:40:16,232 DEBUG   HandlerThread:24104 [meta.py:_save_pip():67] save pip done
+2022-10-12 17:40:16,233 DEBUG   HandlerThread:24104 [meta.py:_save_conda():74] save conda
+2022-10-12 17:40:16,605 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\conda-environment.yaml
+2022-10-12 17:40:16,607 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\requirements.txt
+2022-10-12 17:40:21,641 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\conf_table_0_e84cd1383d482aa53bc3.table.json
+2022-10-12 17:40:21,642 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media
+2022-10-12 17:40:21,643 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table
+2022-10-12 17:40:23,665 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\examples_1_0265b4d6574d9bade936.table.json
+2022-10-12 17:40:23,665 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table
+2022-10-12 17:41:02,976 DEBUG   HandlerThread:24104 [meta.py:_save_conda():84] save conda done
+2022-10-12 17:41:02,976 DEBUG   HandlerThread:24104 [meta.py:probe():253] probe done
+2022-10-12 17:41:02,986 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\conda-environment.yaml
+2022-10-12 17:41:02,987 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-metadata.json
+2022-10-12 17:41:03,922 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-12 17:41:03,923 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: stop_status
+2022-10-12 17:41:03,969 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-12 17:41:03,970 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:03,973 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-12 17:41:03,974 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:03,987 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:03,997 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,007 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,012 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-12 17:41:04,017 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,026 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,034 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,043 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,046 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-12 17:41:04,049 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:04,358 DEBUG   SenderThread:24104 [sender.py:send():303] send: telemetry
+2022-10-12 17:41:04,359 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:04,359 DEBUG   SenderThread:24104 [sender.py:send():303] send: telemetry
+2022-10-12 17:41:04,360 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:04,360 WARNING SenderThread:24104 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-10-12 17:41:04,360 DEBUG   SenderThread:24104 [sender.py:send():303] send: config
+2022-10-12 17:41:04,363 DEBUG   SenderThread:24104 [sender.py:send():303] send: config
+2022-10-12 17:41:04,363 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: log_artifact
+2022-10-12 17:41:04,999 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:07,013 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:07,232 INFO    Thread-24 :24104 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\f4\7a803f56c5aac69443a0ae2e411f57
+2022-10-12 17:41:08,544 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:08,981 INFO    SenderThread:24104 [sender.py:send_request_log_artifact():1222] logged artifact run-38u0j5a6-conf_table - {'id': 'QXJ0aWZhY3Q6MjIzOTkyMjMy', 'digest': '961024be2432b28ff4f93ad0b7ebb14f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMDcyOTg1', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-12 17:41:08,981 DEBUG   SenderThread:24104 [sender.py:send():303] send: files
+2022-10-12 17:41:08,982 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file media\table\conf_table_0_e84cd1383d482aa53bc3.table.json with policy now
+2022-10-12 17:41:08,983 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,984 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,985 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,985 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,985 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,985 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,986 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,986 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:08,986 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:08,986 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:08,990 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:08,991 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: log_artifact
+2022-10-12 17:41:09,031 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:10,284 INFO    Thread-25 :24104 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmp1gsnwh6hwandb\4yyzbp5f-media/table/conf_table_0_e84cd1383d482aa53bc3.table.json
+2022-10-12 17:41:11,569 INFO    Thread-27 :24104 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\77\9280f5b25d152c9f5fcfa19a5fb5e2
+2022-10-12 17:41:13,228 INFO    SenderThread:24104 [sender.py:send_request_log_artifact():1222] logged artifact run-38u0j5a6-examples - {'id': 'QXJ0aWZhY3Q6MjIzOTkyMzc5', 'digest': 'fe3e61ec9aa6b736cc9fd02dce6ef836', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMDczMDA0', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-12 17:41:13,229 DEBUG   SenderThread:24104 [sender.py:send():303] send: files
+2022-10-12 17:41:13,229 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file media\table\examples_1_0265b4d6574d9bade936.table.json with policy now
+2022-10-12 17:41:13,230 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,230 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,231 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,231 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,231 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,231 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,232 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,232 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,232 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,232 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:13,233 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:13,235 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:13,236 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,236 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,237 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:13,237 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:13,237 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:13,240 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:13,246 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:13,247 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:13,250 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:13,251 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:13,251 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:13,264 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:13,265 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: stop_status
+2022-10-12 17:41:14,088 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:14,143 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,144 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,146 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,146 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,147 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,157 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,158 DEBUG   SenderThread:24104 [sender.py:send():303] send: stats
+2022-10-12 17:41:14,159 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,160 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,162 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,163 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,164 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,166 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,167 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: stop_status
+2022-10-12 17:41:14,281 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:14,438 INFO    Thread-28 :24104 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmp1gsnwh6hwandb\25owclng-media/table/examples_1_0265b4d6574d9bade936.table.json
+2022-10-12 17:41:14,542 DEBUG   SenderThread:24104 [sender.py:send():303] send: files
+2022-10-12 17:41:14,543 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-12 17:41:14,544 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,544 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,546 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,547 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,548 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,550 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:14,551 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:14,552 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:14,554 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:15,091 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:15,092 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:15,093 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\config.yaml
+2022-10-12 17:41:15,772 INFO    Thread-29 :24104 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmp1gsnwh6hwandb\3icbzrfm-wandb-metadata.json
+2022-10-12 17:41:17,104 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:19,132 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:19,972 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:19,973 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:19,974 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:19,975 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:20,134 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:20,196 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-12 17:41:20,196 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: stop_status
+2022-10-12 17:41:21,139 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:23,158 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:25,131 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:25,132 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:25,132 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:25,134 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:25,170 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:25,170 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:27,207 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:28,745 DEBUG   SenderThread:24104 [sender.py:send():303] send: stats
+2022-10-12 17:41:29,226 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:30,919 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:30,920 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:30,921 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:30,922 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:31,248 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:31,249 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:32,897 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:32,899 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:32,900 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:32,901 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:32,901 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:32,904 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:33,151 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:33,152 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:33,152 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:33,152 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:33,153 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:33,269 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:33,271 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:33,380 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:33,380 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:33,381 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:33,382 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:33,632 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:33,633 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:33,634 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:33,635 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:33,884 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:33,885 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:33,886 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:33,887 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:34,153 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:34,154 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:34,155 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:34,156 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:34,282 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:34,404 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:34,404 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:34,405 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:34,406 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:34,653 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:34,653 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:34,654 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:34,654 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:34,912 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:34,913 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:34,913 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:34,914 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:35,167 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:35,168 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:35,168 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:35,169 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:35,296 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:35,297 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:35,403 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:35,404 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:35,404 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:35,406 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:35,639 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-12 17:41:35,639 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: stop_status
+2022-10-12 17:41:35,668 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:35,909 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:36,099 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,099 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,110 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:36,111 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,112 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,113 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:36,188 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:36,188 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,189 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,190 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:36,308 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:36,474 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:36,475 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,476 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,483 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:36,730 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:36,731 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,731 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,732 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:36,987 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:36,988 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:36,989 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:36,990 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:37,085 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:37,085 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:37,086 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:37,087 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:37,091 DEBUG   SenderThread:24104 [sender.py:send():303] send: config
+2022-10-12 17:41:37,321 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:37,322 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:37,499 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-12 17:41:37,500 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: log_artifact
+2022-10-12 17:41:37,583 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:38,333 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-12 17:41:38,335 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table
+2022-10-12 17:41:38,346 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-12 17:41:38,447 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:38,717 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-12 17:41:39,344 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:39,344 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-12 17:41:39,345 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table
+2022-10-12 17:41:39,733 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-12 17:41:40,125 INFO    Thread-31 :24104 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\e9\6383a6ec5d2784b12af160eab17b1e
+2022-10-12 17:41:42,041 INFO    SenderThread:24104 [sender.py:send_request_log_artifact():1222] logged artifact run-38u0j5a6-conf_table - {'id': 'QXJ0aWZhY3Q6MjIzOTkzMzA2', 'digest': '6873f220f64c8ac68458cdcd9789f7ec', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMDcyOTg1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjIzOTkyMjMy', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-12 17:41:42,042 DEBUG   SenderThread:24104 [sender.py:send():303] send: files
+2022-10-12 17:41:42,042 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file media\table\conf_table_33_64d53b227faa1d9af28f.table.json with policy now
+2022-10-12 17:41:42,046 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:42,046 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:42,051 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:42,052 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: log_artifact
+2022-10-12 17:41:42,376 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:43,336 INFO    Thread-32 :24104 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmp1gsnwh6hwandb\20gbd9ay-media/table/conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-12 17:41:44,614 INFO    Thread-34 :24104 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\a7\18e6139b8d4bb63745400727e0a9ee
+2022-10-12 17:41:44,773 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-12 17:41:46,478 INFO    SenderThread:24104 [sender.py:send_request_log_artifact():1222] logged artifact run-38u0j5a6-examples - {'id': 'QXJ0aWZhY3Q6MjIzOTkzNDYw', 'digest': '46bca21cb949c7f4e6a861749e0bb5c2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMDczMDA0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjIzOTkyMzc5', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-12 17:41:46,990 DEBUG   SenderThread:24104 [sender.py:send():303] send: files
+2022-10-12 17:41:46,991 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file media\table\examples_34_91f6e347e7ecd02507aa.table.json with policy now
+2022-10-12 17:41:46,992 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:46,992 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:46,994 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:46,995 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,995 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,995 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,995 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,996 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,996 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,996 DEBUG   SenderThread:24104 [sender.py:send():303] send: metric
+2022-10-12 17:41:46,996 DEBUG   SenderThread:24104 [sender.py:send():303] send: history
+2022-10-12 17:41:46,996 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:46,999 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:47,000 DEBUG   SenderThread:24104 [sender.py:send():303] send: telemetry
+2022-10-12 17:41:47,000 DEBUG   SenderThread:24104 [sender.py:send():303] send: exit
+2022-10-12 17:41:47,000 INFO    SenderThread:24104 [sender.py:send_exit():442] handling exit code: 0
+2022-10-12 17:41:47,001 INFO    SenderThread:24104 [sender.py:send_exit():444] handling runtime: 83
+2022-10-12 17:41:47,006 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:47,007 INFO    SenderThread:24104 [sender.py:send_exit():450] send defer
+2022-10-12 17:41:47,007 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: poll_exit
+2022-10-12 17:41:47,008 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,008 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-12 17:41:47,008 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,008 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-12 17:41:47,008 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 1
+2022-10-12 17:41:47,009 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,009 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-12 17:41:47,206 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,206 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-12 17:41:47,206 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 2
+2022-10-12 17:41:47,207 DEBUG   SenderThread:24104 [sender.py:send():303] send: stats
+2022-10-12 17:41:47,208 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,209 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-12 17:41:47,209 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,209 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-12 17:41:47,210 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 3
+2022-10-12 17:41:47,210 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,211 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-12 17:41:47,211 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,211 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-12 17:41:47,211 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 4
+2022-10-12 17:41:47,212 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,212 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-12 17:41:47,213 DEBUG   SenderThread:24104 [sender.py:send():303] send: summary
+2022-10-12 17:41:47,216 INFO    SenderThread:24104 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-12 17:41:47,216 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,216 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-12 17:41:47,217 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 5
+2022-10-12 17:41:47,217 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,217 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-12 17:41:47,218 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,218 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-12 17:41:47,444 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:47,444 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\config.yaml
+2022-10-12 17:41:47,676 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 6
+2022-10-12 17:41:47,677 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:47,677 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-12 17:41:47,678 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:47,678 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-12 17:41:48,157 INFO    Thread-35 :24104 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmp1gsnwh6hwandb\8bnvcnxm-media/table/examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-12 17:41:48,447 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\config.yaml
+2022-10-12 17:41:48,570 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 7
+2022-10-12 17:41:48,571 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:48,572 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-12 17:41:48,572 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:48,572 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-12 17:41:48,573 INFO    SenderThread:24104 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-12 17:41:49,473 INFO    Thread-17 :24104 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:49,484 INFO    SenderThread:24104 [dir_watcher.py:finish():392] scan: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files
+2022-10-12 17:41:49,486 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\conda-environment.yaml conda-environment.yaml
+2022-10-12 17:41:49,489 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\config.yaml config.yaml
+2022-10-12 17:41:49,492 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log output.log
+2022-10-12 17:41:49,495 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\requirements.txt requirements.txt
+2022-10-12 17:41:49,498 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-metadata.json wandb-metadata.json
+2022-10-12 17:41:49,500 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json wandb-summary.json
+2022-10-12 17:41:49,556 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\conf_table_0_e84cd1383d482aa53bc3.table.json media\table\conf_table_0_e84cd1383d482aa53bc3.table.json
+2022-10-12 17:41:49,557 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\conf_table_33_64d53b227faa1d9af28f.table.json media\table\conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-12 17:41:49,557 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\examples_1_0265b4d6574d9bade936.table.json media\table\examples_1_0265b4d6574d9bade936.table.json
+2022-10-12 17:41:49,558 INFO    SenderThread:24104 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json media\table\examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-12 17:41:49,559 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 8
+2022-10-12 17:41:49,559 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:49,559 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-12 17:41:49,560 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:49,560 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-12 17:41:49,560 INFO    SenderThread:24104 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-12 17:41:49,827 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-12 17:41:50,768 INFO    Thread-36 :24104 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\conda-environment.yaml
+2022-10-12 17:41:50,768 INFO    Thread-40 :24104 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\wandb-summary.json
+2022-10-12 17:41:50,768 INFO    Thread-38 :24104 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\output.log
+2022-10-12 17:41:50,780 INFO    Thread-37 :24104 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\config.yaml
+2022-10-12 17:41:50,790 INFO    Thread-39 :24104 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\files\requirements.txt
+2022-10-12 17:41:51,001 INFO    Thread-16 :24104 [sender.py:transition_state():463] send defer: 9
+2022-10-12 17:41:51,003 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:51,003 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-12 17:41:51,004 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:51,005 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-12 17:41:51,005 INFO    SenderThread:24104 [file_pusher.py:join():173] waiting for file pusher
+2022-10-12 17:41:51,005 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 10
+2022-10-12 17:41:51,007 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:51,007 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-12 17:41:51,007 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:51,008 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-12 17:41:51,869 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 11
+2022-10-12 17:41:51,871 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:51,871 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-12 17:41:51,872 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:51,872 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-12 17:41:51,872 INFO    SenderThread:24104 [sender.py:transition_state():463] send defer: 12
+2022-10-12 17:41:51,874 DEBUG   SenderThread:24104 [sender.py:send():303] send: final
+2022-10-12 17:41:51,875 DEBUG   SenderThread:24104 [sender.py:send():303] send: footer
+2022-10-12 17:41:51,877 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: defer
+2022-10-12 17:41:51,877 INFO    HandlerThread:24104 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-12 17:41:51,878 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: defer
+2022-10-12 17:41:51,878 INFO    SenderThread:24104 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-12 17:41:51,883 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-12 17:41:51,884 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: poll_exit
+2022-10-12 17:41:51,884 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: server_info
+2022-10-12 17:41:51,886 DEBUG   SenderThread:24104 [sender.py:send_request():317] send_request: server_info
+2022-10-12 17:41:51,894 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-12 17:41:51,898 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-12 17:41:52,364 DEBUG   HandlerThread:24104 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-12 17:41:52,365 INFO    HandlerThread:24104 [handler.py:finish():814] shutting down handler
+2022-10-12 17:41:52,888 INFO    WriterThread:24104 [datastore.py:close():279] close: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\08 ECR\outputs\2022-10-12\17-39-46\wandb\run-20221012_174012-38u0j5a6\run-38u0j5a6.wandb
+2022-10-12 17:41:53,374 INFO    SenderThread:24104 [sender.py:finish():1331] shutting down sender
+2022-10-12 17:41:53,375 INFO    SenderThread:24104 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-12 17:41:53,375 INFO    SenderThread:24104 [file_pusher.py:join():173] waiting for file pusher
+2022-10-12 17:41:54,385 INFO    MainThread:24104 [internal.py:handle_exit():78] Internal process exited

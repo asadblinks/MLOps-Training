@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  93%|▉| 140/151 [01:11<00:05,  1.96it/s, loss=0.604, v_num=j5a6, valid/loss_epoch=0.709, valid/acc=0.359, valid/precision_macro=0.530
+
+
+
