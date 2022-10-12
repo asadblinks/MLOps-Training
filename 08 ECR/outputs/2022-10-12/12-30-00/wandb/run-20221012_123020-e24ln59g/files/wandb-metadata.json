@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-10-12T07:30:23.650709",
+    "startedAt": "2022-10-12T07:30:20.196872",
+    "docker": null,
+    "gpu": "Quadro P1000",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\AsadMehmood\\OneDrive - kyndryl\\Python Scripts\\mlops_work\\MLOps-Training\\08 ECR\\train.py",
+    "codePath": "08 ECR\\train.py",
+    "git": {
+        "remote": "https://github.com/asadblinks/MLOps-Training.git",
+        "commit": "64dc59d35b391f012c61f8dcfb651612539a6754"
+    },
+    "email": "asadmahmood16@hotmail.com",
+    "root": "C:/Users/AsadMehmood/OneDrive - kyndryl/Python Scripts/mlops_work/MLOps-Training",
+    "host": "LAPTOP-LCT7KD66",
+    "username": "AsadMehmood",
+    "executable": "C:\\Anaconda3\\envs\\tf-torch\\python.exe"
+}
