@@ -1,6 +1,0 @@
-[2022-10-14 11:22:53,864][__main__][INFO] - Loading pre-trained model from: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless/models/best-checkpoint.ckpt
-[2022-10-14 11:23:05,671][datasets.builder][WARNING] - Found cached dataset glue (C:/Users/AsadMehmood/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
-[2022-10-14 11:23:05,728][datasets.arrow_dataset][WARNING] - Loading cached processed dataset at C:/Users/AsadMehmood/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad\cache-e7e48ab2b9524312.arrow
-[2022-10-14 11:23:05,763][datasets.arrow_dataset][WARNING] - Loading cached processed dataset at C:/Users/AsadMehmood/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad\cache-ab7be9647b456345.arrow
-[2022-10-14 11:23:05,808][__main__][INFO] - Converting the model into ONNX format
-[2022-10-14 11:23:06,695][__main__][INFO] - Model converted successfully. ONNX format model is at: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless/models/model.onnx

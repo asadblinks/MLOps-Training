@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  90%|▉| 136/151 [01:10<00:07,  1.92it/s, loss=0.617, v_num=qtx2, valid/loss_epoch=0.702, valid/acc=0.453, valid/precision_macro=0.480, valid/recall_macro=0.480, va
+
+
+

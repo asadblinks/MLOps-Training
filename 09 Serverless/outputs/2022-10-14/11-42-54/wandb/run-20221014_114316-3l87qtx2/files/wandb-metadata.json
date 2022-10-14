@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-10-14T06:43:19.817261",
+    "startedAt": "2022-10-14T06:43:16.527502",
+    "docker": null,
+    "gpu": "Quadro P1000",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\AsadMehmood\\OneDrive - kyndryl\\Python Scripts\\mlops_work\\MLOps-Training\\09 Serverless\\train.py",
+    "codePath": "09 Serverless\\train.py",
+    "git": {
+        "remote": "https://github.com/asadblinks/MLOps-Training.git",
+        "commit": "0e9981ee6c9d9bcd8f67a05903aee4abcc2ede2d"
+    },
+    "email": "asadmahmood16@hotmail.com",
+    "root": "C:/Users/AsadMehmood/OneDrive - kyndryl/Python Scripts/mlops_work/MLOps-Training",
+    "host": "LAPTOP-LCT7KD66",
+    "username": "AsadMehmood",
+    "executable": "C:\\Anaconda3\\python.exe"
+}
