@@ -1,0 +1,407 @@
+2022-10-14 11:01:36,369 INFO    StreamThr :20828 [internal.py:wandb_internal():88] W&B internal server running at pid: 20828, started at: 2022-10-14 11:01:36.368385
+2022-10-14 11:01:36,372 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: status
+2022-10-14 11:01:36,376 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: status
+2022-10-14 11:01:36,378 DEBUG   SenderThread:20828 [sender.py:send():303] send: header
+2022-10-14 11:01:36,378 INFO    WriterThread:20828 [datastore.py:open_for_write():75] open: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\run-3nfmzdui.wandb
+2022-10-14 11:01:36,437 DEBUG   SenderThread:20828 [sender.py:send():303] send: run
+2022-10-14 11:01:36,439 INFO    SenderThread:20828 [sender.py:_maybe_setup_resume():593] checking resume status for asadblinks/MLOPs AWS/3nfmzdui
+2022-10-14 11:01:37,689 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: check_version
+2022-10-14 11:01:37,692 INFO    SenderThread:20828 [dir_watcher.py:__init__():216] watching files in: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files
+2022-10-14 11:01:37,692 INFO    SenderThread:20828 [sender.py:_start_run_threads():928] run started: 3nfmzdui with start time 1665727296.365386
+2022-10-14 11:01:37,692 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:01:37,693 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:01:37,694 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: check_version
+2022-10-14 11:01:38,243 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: run_start
+2022-10-14 11:01:38,699 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:01:39,159 DEBUG   HandlerThread:20828 [meta.py:__init__():34] meta init
+2022-10-14 11:01:39,159 DEBUG   HandlerThread:20828 [meta.py:__init__():49] meta init done
+2022-10-14 11:01:39,159 DEBUG   HandlerThread:20828 [meta.py:probe():215] probe
+2022-10-14 11:01:39,174 DEBUG   HandlerThread:20828 [meta.py:_setup_git():205] setup git
+2022-10-14 11:01:39,304 DEBUG   HandlerThread:20828 [meta.py:_setup_git():212] setup git done
+2022-10-14 11:01:39,304 DEBUG   HandlerThread:20828 [meta.py:_save_pip():53] save pip
+2022-10-14 11:01:39,306 DEBUG   HandlerThread:20828 [meta.py:_save_pip():67] save pip done
+2022-10-14 11:01:39,306 DEBUG   HandlerThread:20828 [meta.py:_save_conda():74] save conda
+2022-10-14 11:01:39,707 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\conda-environment.yaml
+2022-10-14 11:01:39,707 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\requirements.txt
+2022-10-14 11:01:44,752 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\conf_table_0_57cfb0310f6f3029f9af.table.json
+2022-10-14 11:01:44,752 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media
+2022-10-14 11:01:44,753 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table
+2022-10-14 11:01:45,757 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\examples_1_c9e1c1ab872cb65e7291.table.json
+2022-10-14 11:01:45,758 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table
+2022-10-14 11:02:16,080 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\conda-environment.yaml
+2022-10-14 11:02:16,472 DEBUG   HandlerThread:20828 [meta.py:_save_conda():84] save conda done
+2022-10-14 11:02:16,473 DEBUG   HandlerThread:20828 [meta.py:probe():253] probe done
+2022-10-14 11:02:17,089 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-metadata.json
+2022-10-14 11:02:17,403 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-14 11:02:17,404 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: stop_status
+2022-10-14 11:02:17,410 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-14 11:02:17,411 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,413 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-14 11:02:17,414 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,422 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,430 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,437 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,440 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-14 11:02:17,443 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,450 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,455 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:17,826 DEBUG   SenderThread:20828 [sender.py:send():303] send: telemetry
+2022-10-14 11:02:17,827 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:17,827 DEBUG   SenderThread:20828 [sender.py:send():303] send: telemetry
+2022-10-14 11:02:17,827 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:17,827 WARNING SenderThread:20828 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-10-14 11:02:17,827 DEBUG   SenderThread:20828 [sender.py:send():303] send: config
+2022-10-14 11:02:17,830 DEBUG   SenderThread:20828 [sender.py:send():303] send: config
+2022-10-14 11:02:17,830 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: log_artifact
+2022-10-14 11:02:18,104 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:20,120 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:20,288 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:20,850 INFO    Thread-24 :20828 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\b3\f2351eecef50a26db01a2088f8f850
+2022-10-14 11:02:22,714 INFO    SenderThread:20828 [sender.py:send_request_log_artifact():1222] logged artifact run-3nfmzdui-conf_table - {'id': 'QXJ0aWZhY3Q6MjI3MzcxMjY4', 'digest': '1777cb79e3e4540667c2358e5e8816f5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxNDA3MjM5', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-14 11:02:22,714 DEBUG   SenderThread:20828 [sender.py:send():303] send: files
+2022-10-14 11:02:22,715 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file media\table\conf_table_0_57cfb0310f6f3029f9af.table.json with policy now
+2022-10-14 11:02:22,716 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,717 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,717 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,717 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,718 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,718 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,718 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,718 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:22,718 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:22,719 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:22,722 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:22,723 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: log_artifact
+2022-10-14 11:02:23,149 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:23,299 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-14 11:02:23,931 INFO    Thread-25 :20828 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmpjkexj1z9wandb\1a1zgau7-media/table/conf_table_0_57cfb0310f6f3029f9af.table.json
+2022-10-14 11:02:25,483 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:26,175 INFO    Thread-27 :20828 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\69\547ab9254f749100a55e6b7edb2432
+2022-10-14 11:02:28,085 INFO    SenderThread:20828 [sender.py:send_request_log_artifact():1222] logged artifact run-3nfmzdui-examples - {'id': 'QXJ0aWZhY3Q6MjI3MzcxMzE4', 'digest': '8aa90aafa1376276e82b6b7e553ac96a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxNDA3MjQw', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-14 11:02:28,086 DEBUG   SenderThread:20828 [sender.py:send():303] send: files
+2022-10-14 11:02:28,086 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file media\table\examples_1_c9e1c1ab872cb65e7291.table.json with policy now
+2022-10-14 11:02:28,088 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,088 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,088 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,088 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,088 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,089 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,089 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,089 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,089 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,089 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,090 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,092 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,094 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,094 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,095 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:28,095 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,095 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,097 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,098 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,104 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,106 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,107 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,108 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,109 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,110 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: stop_status
+2022-10-14 11:02:28,199 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:28,493 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,494 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,498 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,499 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,499 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,502 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,504 DEBUG   SenderThread:20828 [sender.py:send():303] send: stats
+2022-10-14 11:02:28,505 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,507 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,509 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,510 DEBUG   SenderThread:20828 [sender.py:send():303] send: files
+2022-10-14 11:02:28,510 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-14 11:02:28,512 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,512 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,514 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:28,515 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: stop_status
+2022-10-14 11:02:28,989 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:28,989 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:28,991 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:29,213 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:29,296 INFO    Thread-28 :20828 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmpjkexj1z9wandb\3ghsnlp7-media/table/examples_1_c9e1c1ab872cb65e7291.table.json
+2022-10-14 11:02:29,722 INFO    Thread-29 :20828 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmpjkexj1z9wandb\2yeluovp-wandb-metadata.json
+2022-10-14 11:02:30,209 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:30,210 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:30,210 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:30,213 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:30,226 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:30,226 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:32,244 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:34,256 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:34,669 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:34,669 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:34,670 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:34,671 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:35,268 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:36,276 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:37,289 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\config.yaml
+2022-10-14 11:02:38,303 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:39,321 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:39,322 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:39,322 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:39,323 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:40,322 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:40,322 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:42,340 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:43,322 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-14 11:02:43,322 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: stop_status
+2022-10-14 11:02:44,050 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:44,051 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:44,052 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:44,053 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:44,365 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:44,365 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:46,389 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:48,409 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:48,818 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:48,819 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:48,819 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:48,820 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:49,423 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:50,433 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:50,540 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:50,542 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:50,542 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:50,542 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:50,543 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:50,544 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:50,792 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:50,793 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:02:50,793 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:50,793 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:50,794 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:51,022 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:51,023 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:51,023 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:51,024 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:51,271 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:51,272 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:51,272 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:51,273 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:51,447 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:51,525 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:51,526 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:51,526 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:51,527 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:51,743 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:51,743 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:51,743 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:51,745 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:52,014 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:52,015 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:52,016 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:52,017 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:52,053 DEBUG   SenderThread:20828 [sender.py:send():303] send: stats
+2022-10-14 11:02:52,247 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:52,248 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:52,248 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:52,250 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:52,463 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:52,464 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:52,498 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:52,499 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:52,499 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:52,500 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:52,745 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:52,746 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:52,746 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:52,747 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:53,070 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:53,071 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:53,071 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:53,072 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:53,313 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:53,314 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:53,314 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:53,315 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:53,471 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:53,554 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:53,555 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:53,555 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:53,557 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:53,824 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:53,825 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:53,826 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:53,827 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:54,062 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:54,063 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:54,063 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:54,065 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:54,293 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:54,294 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:54,294 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:54,295 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:54,488 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:54,489 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:54,560 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:54,561 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:54,561 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:54,563 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:54,649 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:54,649 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:54,650 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:54,651 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:54,657 DEBUG   SenderThread:20828 [sender.py:send():303] send: config
+2022-10-14 11:02:55,143 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-14 11:02:55,143 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: log_artifact
+2022-10-14 11:02:55,160 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:55,497 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:02:55,498 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-14 11:02:55,498 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table
+2022-10-14 11:02:55,947 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-14 11:02:55,964 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:56,119 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-14 11:02:56,513 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:02:56,514 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-14 11:02:56,514 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table
+2022-10-14 11:02:57,136 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-14 11:02:57,800 INFO    Thread-31 :20828 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\e9\6383a6ec5d2784b12af160eab17b1e
+2022-10-14 11:02:59,450 INFO    SenderThread:20828 [sender.py:send_request_log_artifact():1222] logged artifact run-3nfmzdui-conf_table - {'id': 'QXJ0aWZhY3Q6MjI3MzcxNzcy', 'digest': '6873f220f64c8ac68458cdcd9789f7ec', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxNDA3MjM5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjI3MzcxMjY4', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-14 11:02:59,451 DEBUG   SenderThread:20828 [sender.py:send():303] send: files
+2022-10-14 11:02:59,451 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file media\table\conf_table_33_64d53b227faa1d9af28f.table.json with policy now
+2022-10-14 11:02:59,452 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:02:59,452 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:02:59,453 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:02:59,454 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: log_artifact
+2022-10-14 11:02:59,541 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:03:00,597 INFO    Thread-32 :20828 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmpjkexj1z9wandb\3ly8vtei-media/table/conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-14 11:03:01,884 INFO    Thread-34 :20828 [upload_job.py:push():101] Uploaded file C:\Users\AsadMehmood\.cache\wandb\artifacts\obj\md5\a7\18e6139b8d4bb63745400727e0a9ee
+2022-10-14 11:03:02,178 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-14 11:03:03,519 INFO    SenderThread:20828 [sender.py:send_request_log_artifact():1222] logged artifact run-3nfmzdui-examples - {'id': 'QXJ0aWZhY3Q6MjI3MzcxODM2', 'digest': '46bca21cb949c7f4e6a861749e0bb5c2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxNDA3MjQw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjI3MzcxMzE4', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-14 11:03:03,519 DEBUG   SenderThread:20828 [sender.py:send():303] send: files
+2022-10-14 11:03:03,519 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file media\table\examples_34_91f6e347e7ecd02507aa.table.json with policy now
+2022-10-14 11:03:03,520 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:03:03,520 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:03:03,521 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:03:03,522 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,522 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: metric
+2022-10-14 11:03:03,523 DEBUG   SenderThread:20828 [sender.py:send():303] send: history
+2022-10-14 11:03:03,524 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:03:03,531 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:03:03,532 DEBUG   SenderThread:20828 [sender.py:send():303] send: telemetry
+2022-10-14 11:03:03,532 DEBUG   SenderThread:20828 [sender.py:send():303] send: exit
+2022-10-14 11:03:03,532 INFO    SenderThread:20828 [sender.py:send_exit():442] handling exit code: 0
+2022-10-14 11:03:03,532 INFO    SenderThread:20828 [sender.py:send_exit():444] handling runtime: 77
+2022-10-14 11:03:03,533 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:03:03,533 INFO    SenderThread:20828 [sender.py:send_exit():450] send defer
+2022-10-14 11:03:03,533 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: poll_exit
+2022-10-14 11:03:03,534 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,534 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-14 11:03:03,534 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,534 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-14 11:03:03,535 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 1
+2022-10-14 11:03:03,535 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,535 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-14 11:03:03,579 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:03:03,922 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,922 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-14 11:03:03,922 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 2
+2022-10-14 11:03:03,922 DEBUG   SenderThread:20828 [sender.py:send():303] send: stats
+2022-10-14 11:03:03,923 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,923 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-14 11:03:03,923 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,923 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-14 11:03:03,923 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 3
+2022-10-14 11:03:03,923 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,923 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-14 11:03:03,923 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,924 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-14 11:03:03,924 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 4
+2022-10-14 11:03:03,924 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,924 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-14 11:03:03,924 DEBUG   SenderThread:20828 [sender.py:send():303] send: summary
+2022-10-14 11:03:03,926 INFO    SenderThread:20828 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-14 11:03:03,928 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,928 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-14 11:03:03,929 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 5
+2022-10-14 11:03:03,929 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:03,929 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-14 11:03:03,930 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:03,930 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-14 11:03:04,333 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 6
+2022-10-14 11:03:04,333 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:04,334 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-14 11:03:04,334 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:04,334 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-14 11:03:04,591 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:03:04,591 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\config.yaml
+2022-10-14 11:03:04,592 INFO    Thread-17 :20828 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:03:04,658 INFO    Thread-35 :20828 [upload_job.py:push():143] Uploaded file C:\Users\ASADME~1\AppData\Local\Temp\tmpjkexj1z9wandb\p497ycb5-media/table/examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-14 11:03:06,026 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 7
+2022-10-14 11:03:06,027 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:06,027 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-14 11:03:06,027 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:06,027 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-14 11:03:06,027 INFO    SenderThread:20828 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-14 11:03:06,617 INFO    SenderThread:20828 [dir_watcher.py:finish():392] scan: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files
+2022-10-14 11:03:06,617 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\conda-environment.yaml conda-environment.yaml
+2022-10-14 11:03:06,618 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\config.yaml config.yaml
+2022-10-14 11:03:06,619 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log output.log
+2022-10-14 11:03:06,625 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\requirements.txt requirements.txt
+2022-10-14 11:03:06,626 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-metadata.json wandb-metadata.json
+2022-10-14 11:03:06,629 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json wandb-summary.json
+2022-10-14 11:03:06,634 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\conf_table_0_57cfb0310f6f3029f9af.table.json media\table\conf_table_0_57cfb0310f6f3029f9af.table.json
+2022-10-14 11:03:06,634 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\conf_table_33_64d53b227faa1d9af28f.table.json media\table\conf_table_33_64d53b227faa1d9af28f.table.json
+2022-10-14 11:03:06,634 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\examples_1_c9e1c1ab872cb65e7291.table.json media\table\examples_1_c9e1c1ab872cb65e7291.table.json
+2022-10-14 11:03:06,634 INFO    SenderThread:20828 [dir_watcher.py:finish():406] scan save: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json media\table\examples_34_91f6e347e7ecd02507aa.table.json
+2022-10-14 11:03:06,634 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 8
+2022-10-14 11:03:06,637 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:06,637 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-14 11:03:06,637 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:06,637 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-14 11:03:06,637 INFO    SenderThread:20828 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-14 11:03:07,224 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-14 11:03:07,723 INFO    Thread-40 :20828 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\wandb-summary.json
+2022-10-14 11:03:07,730 INFO    Thread-37 :20828 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\config.yaml
+2022-10-14 11:03:07,738 INFO    Thread-38 :20828 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\output.log
+2022-10-14 11:03:07,769 INFO    Thread-39 :20828 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\requirements.txt
+2022-10-14 11:03:07,846 INFO    Thread-36 :20828 [upload_job.py:push():143] Uploaded file C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\files\conda-environment.yaml
+2022-10-14 11:03:08,052 INFO    Thread-16 :20828 [sender.py:transition_state():463] send defer: 9
+2022-10-14 11:03:08,052 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:08,052 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-14 11:03:08,052 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:08,052 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-14 11:03:08,052 INFO    SenderThread:20828 [file_pusher.py:join():173] waiting for file pusher
+2022-10-14 11:03:08,053 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 10
+2022-10-14 11:03:08,053 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:08,053 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-14 11:03:08,053 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:08,053 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-14 11:03:08,601 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 11
+2022-10-14 11:03:08,602 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:08,602 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-14 11:03:08,602 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:08,602 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-14 11:03:08,602 INFO    SenderThread:20828 [sender.py:transition_state():463] send defer: 12
+2022-10-14 11:03:08,602 DEBUG   SenderThread:20828 [sender.py:send():303] send: final
+2022-10-14 11:03:08,603 DEBUG   SenderThread:20828 [sender.py:send():303] send: footer
+2022-10-14 11:03:08,603 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: defer
+2022-10-14 11:03:08,603 INFO    HandlerThread:20828 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-14 11:03:08,603 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: defer
+2022-10-14 11:03:08,603 INFO    SenderThread:20828 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-14 11:03:08,605 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-14 11:03:08,605 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: poll_exit
+2022-10-14 11:03:08,605 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: server_info
+2022-10-14 11:03:08,606 DEBUG   SenderThread:20828 [sender.py:send_request():317] send_request: server_info
+2022-10-14 11:03:08,608 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-14 11:03:08,609 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-14 11:03:09,019 DEBUG   HandlerThread:20828 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-14 11:03:09,019 INFO    HandlerThread:20828 [handler.py:finish():814] shutting down handler
+2022-10-14 11:03:09,610 INFO    WriterThread:20828 [datastore.py:close():279] close: C:\Users\AsadMehmood\OneDrive - kyndryl\Python Scripts\mlops_work\MLOps-Training\09 Serverless\outputs\2022-10-14\11-01-19\wandb\run-20221014_110136-3nfmzdui\run-3nfmzdui.wandb
+2022-10-14 11:03:10,032 INFO    SenderThread:20828 [sender.py:finish():1331] shutting down sender
+2022-10-14 11:03:10,032 INFO    SenderThread:20828 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-14 11:03:10,032 INFO    SenderThread:20828 [file_pusher.py:join():173] waiting for file pusher
+2022-10-14 11:03:11,043 INFO    MainThread:20828 [internal.py:handle_exit():78] Internal process exited

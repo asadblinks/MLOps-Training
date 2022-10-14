@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./08 ECR
+        working-directory: ./09 Serverless
     steps:
       - name: Checking out the repository
         uses: actions/checkout@v2
@@ -28,4 +28,4 @@ jobs:
           secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           region: us-east-1
           image: mlops-aws-rep-asad:latest
- 
+          
